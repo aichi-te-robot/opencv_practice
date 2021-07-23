@@ -233,3 +233,9 @@ target_link_libraries(prac4 ${OpenCV_LIBRARIES} ${catkin_LIBRARIES})
 
 add_executable(prac5 src/prac5.cpp)
 target_link_libraries(prac5 ${OpenCV_LIBRARIES} ${catkin_LIBRARIES})
+
+add_executable(prac7 src/prac7.cpp)
+target_link_libraries(prac7 ${OpenCV_LIBRARIES} ${catkin_LIBRARIES})
+
+add_executable(prac8 src/prac8.cpp)
+target_link_libraries(prac8 ${OpenCV_LIBRARIES} ${catkin_LIBRARIES})
